@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /* This going to be wrap the all items in the container */
+}
+
+
+.container > div {
+  border: 2px solid blue;
+  padding: 40px;
+  flex: 1; /* it's will flex all items to fit */
+  flex: 1 2 100px;
+  background-color: yellow;
+  text-align: center;
+}
