@@ -1,0 +1,13 @@
+.container {
+  border: 5px solid green;
+  display: flex;
+  flex-direction: row-reverse; /* it will change the flex items horizontally opposite */
+  flex-direction: column; /* it will change the direction of flex items top to bottom order */
+  flex-direction: column-reverse; /* it will change the flex items order to column opposite order */
+  gap: 1rem;
+}
+
+
+.container > .item {
+  border: 2px solid red;
+}
